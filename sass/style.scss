@@ -9,3 +9,11 @@ Template:Main style file
 @import '../node_modules/owl.carousel/src/scss/owl.carousel.scss';
 @import '../node_modules/owl.carousel/src/scss/owl.theme.default.scss';
 
+//google fonts
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Nunito&display=swap');
+
+//TEMPLATES
+@import './include/variable';
+@import './include/global';
+@import './include/header';
+@import './include/banner';

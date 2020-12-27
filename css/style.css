@@ -8,6 +8,7 @@ Template:Main style file
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Nunito&display=swap");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -9942,4 +9943,79 @@ a.text-dark:hover, a.text-dark:focus {
 
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
   background: #869791;
+}
+
+/*GLOBAL CSS*/
+.font-num {
+  font-family: "Nunito", cursive;
+  font-weight: bold;
+}
+
+.font-size-1 {
+  font-size: 0.8rem;
+}
+
+.font-size-2 {
+  font-size: 1.9rem;
+}
+
+.font-size-1 {
+  font-size: 3rem;
+}
+
+body {
+  font-family: "inter", cursive;
+}
+
+#header .top {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  z-index: 999;
+}
+
+#header .navbar .collapse .nav-item {
+  padding: 0 .4rem;
+}
+
+#header .navbar .collapse .nav-item > a {
+  color: white !important;
+}
+
+@media screen and (max-width: 992px) {
+  #header .navbar {
+    background-color: #6930c3;
+  }
+}
+
+/*
+BANNER TEMPLATE
+*/
+#banner {
+  background-image: url("../../assets/backgroundimg1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#banner .space {
+  display: flex;
+  justify-content: center;
+  padding-top: 14rem;
+  width: 100%;
+  height: 800px;
+  color: white;
+}
+
+#banner .space .buttons > a {
+  margin-right: .4rem;
+  padding: .4rem 1.8rem;
+}
+
+#banner .space .buttons > a:hover {
+  background: white !important;
+}
+
+#banner .space .buttons > a:hover > span {
+  color: #343a40;
 }
